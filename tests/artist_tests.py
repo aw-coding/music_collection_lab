@@ -9,3 +9,4 @@ class TestArtist(unittest.TestCase):
 
     def test_artist_has_name(self):
         self.assertEqual('David Bowie', self.david_bowie.name)
+
